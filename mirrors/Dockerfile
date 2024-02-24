@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM hub-mirror.c.163.com/library/python:3.11-alpine
 
 RUN mkdir -p /wwwroot
 WORKDIR /wwwroot

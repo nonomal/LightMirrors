@@ -1,4 +1,4 @@
-FROM alpine:3.19.1
+FROM hub-mirror.c.163.com/library/alpine:3.19.1
 
 # Optimization for China
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
